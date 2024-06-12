@@ -8,13 +8,9 @@ I have uploaded the basic exoskeleton of the neural networks. Using OOP, the fir
 
 The input layer is made with just an array of inputs, and each hidden layer is an object, utilising its own weights and biases, randomly generated at first, to create new outputs. 
 
-<<!! Biases are set to zero at the beginning but this may cause the neural network to appear dead>>
-
 I learned to use NumPy to carry out the many matrix operations easily and conveniently. The math behind Neural Networks was not a problem to understand, as it was taught in my current year's syllabus. This including matrices, tranposition and dot product.
 
-I also learnt about activation functions, the benefits of ReLU and Sigmoid, as well as the Softmax function for output neurons.
-
-<<!! To prevent exponentially large values in the Softmax function, we subtract all inputs by the largest input, so exponentiated values range from 0 < x <= 1. >>
+I also learnt about activation functions, the benefits of ReLU and Sigmoid, as well as the Softmax function for output neurons. To prevent exponentially large values in the Softmax function, we subtract all inputs by the largest input, so exponentiated values range from 0 < x <= 1.
 
 Log 2 - 12/6/2024
 -----------------
