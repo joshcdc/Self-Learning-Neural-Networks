@@ -23,3 +23,12 @@ Both loss and accuracy calculations took into account the format that the true v
 
 Lastly, I learned how to do optimisation, which we used a vertical dataset from the nnfs library. Simple optimisation included tweaking the best case weights and biases slightly and comparing the new loss to best loss. This was significantly better than randomising weights and biases, but is not the best.
 
+Log 3 - 14/6/2024
+-----------------
+This next part of the neural network was the most difficult so far. To reduce the required randomness of the neural network, I learned about backpropagation and partial derivatives. Unfortunately the explanation in the book was difficult for me to understand, so I spent the last evening watching multiple videos, including one by 3B1B, to understand the concept.
+
+Though I fully understand the theory around the partial differentiaion used to backpropagate, it was quite difficult to follow along with the code shown in the book. I will come back to understand this again in the future when I am more confident.
+
+The few edits we made were adding a backward method to the classes, allowing us to reverse the loss function to its derivatives.
+
+
